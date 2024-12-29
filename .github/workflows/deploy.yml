@@ -4,14 +4,16 @@ on:
   push:
     branches:
       - main
-    path-ignore: -'README.md'
-  pull-request:
+    path-ignore:
+      - "README.md"
+  pull_request:
     branches:
       - main
 
- jobs:
+jobs:
+  build:
+    runs-on: ubuntu-latest
     steps:
-        #step 1: check out the code
-     -name: checkout the code
-      uses: actions/checkout@v3
-    
+      # Step 1: Check out the code
+      - name: Checkout the code
+        uses: actions/checkout@v3
