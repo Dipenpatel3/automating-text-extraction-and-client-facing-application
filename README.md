@@ -1,10 +1,10 @@
-# automating-text-extraction-and-client-facing-application
-
 # Automating Text Extraction and Client-Facing Application
 
 ## Overview
 
 This project automates the extraction of text from PDF files using two different approaches and builds a client-facing application for interacting with the extracted data. The system processes PDFs using open-source tools and Unstructured API, enabling users to interactively explore the results through a Streamlit interface.
+
+---
 
 ## Project Resources
 
@@ -12,6 +12,8 @@ This project automates the extraction of text from PDF files using two different
 - **App (Deployed on AWS EC2)**: [Streamlit Link](http://75.101.133.31:8501/)
 - **Airflow (Deployed on AWS EC2)**: [Airflow Link](http://75.101.133.31:8080/)
 - **YouTube Demo**: [Demo Link](https://www.youtube.com/watch?v=RE07uCmvzho)
+
+---
 
 ## Technologies
 
@@ -29,9 +31,13 @@ This project automates the extraction of text from PDF files using two different
 ![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON-web-tokens&logoColor=white)
 ![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apache-airflow&logoColor=white)
 
+---
+
 ## Architecture Diagram
 
 ![flow_diagram](https://github.com/user-attachments/assets/4d9323d3-155e-40a9-8f91-8d25b2cb4c6e)
+
+---
 
 ## Project Flow
 
@@ -104,6 +110,8 @@ docker run -d -p 8080:8080 ramkumarrp16077/airflow-image:latest
 Access the Application
 http://75.101.133.31:8080 for Airflow
 http://75.101.133.31:8501 for Streamlit
+
+---
 
 ## Repository Structure
 

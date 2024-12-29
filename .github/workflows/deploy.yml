@@ -1,0 +1,17 @@
+name: Automating Text Extraction
+
+on:
+  push:
+    branches:
+      - main
+    path-ignore: -'README.md'
+  pull-request:
+    branches:
+      - main
+
+ jobs:
+    steps:
+        #step 1: check out the code
+     -name: checkout the code
+      uses: actions/checkout@v3
+    
