@@ -99,11 +99,11 @@ sudo systemctl start docker
 sudo systemctl enable docker
 
 docker login
-docker pull ramkumarrp16077/airflow-image:latest .
+docker pull dipenpatel10/airflow-image:latest .
 
 
 # To run the application
-docker run -d -p 8080:8080 ramkumarrp16077/airflow-image:latest
+docker run -d -p 8080:8080 dipenpatel10/airflow-image:latest
 
 ```
 
