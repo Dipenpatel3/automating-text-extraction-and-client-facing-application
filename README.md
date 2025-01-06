@@ -86,10 +86,10 @@ OPEN_AI_API_KEY: <your-open-ai-api-key>
 
 # Dockerize the application
 
-docker build -t ramkumarrp16077/airflow-image:latest .
+docker build -t dipenpatel10/airflow-image:latest .
 
 #create tage and then push
-docker push ramkumarrp16077/airflow-image:latest
+docker push dipenpatel10/airflow-image:latest
 
 # Create an EC instance and do the below pre requisities
 
