@@ -13,6 +13,5 @@ COPY ./project_logging /code/project_logging
 COPY ./utils /code/utils
 COPY ./streamlit_app.py /code/streamlit_app.py
 COPY ./parameter_config.py /code/parameter_config.py
-COPY .env /code/.env
 
 CMD ["/bin/bash", "-c", "uvicorn fast_api.fast_api_setup:app --host 0.0.0.0 --port 8000 --reload & streamlit run streamlit_app.py --server.port 8501"]
